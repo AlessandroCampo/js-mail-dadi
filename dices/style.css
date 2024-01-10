@@ -1,0 +1,44 @@
+html {
+    font-family: sans-serif;
+}
+
+#dice1,
+#dice2 {
+    height: 200px;
+    width: 200px;
+    background-image: url(img/dice-1.png);
+    background-size: cover;
+}
+
+.game-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+}
+
+.dice-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#button,
+#result {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    padding-inline: 30px;
+    padding-block: 10px;
+    font-size: 30px;
+    transform: translateX(-50%);
+    font-weight: bold;
+}
+
+#result {
+    bottom: 15%;
+    text-align: center
+}
