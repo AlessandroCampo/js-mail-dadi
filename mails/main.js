@@ -49,8 +49,7 @@ create_new.addEventListener(("click"), () => {
         new_user.password = user_newpass_input.value
         new_user.mail = user_newmail_input.value
         registered_users.push(new_user)
-        console.log(new_user)
-        console.log(registered_users)
+        register_container.style.display = "none"
     })
 })
 button.addEventListener("click", (e) => {
